@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110D813B9705D72DEE4BAF45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D50147DD461E6C24F8F3BF /* libPods.a */; };
+		16695EB11CF88A1C004AE96F /* OutgoingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16695EB01CF88A1C004AE96F /* OutgoingMessage.swift */; };
+		16695EB31CF8A143004AE96F /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16695EB21CF8A143004AE96F /* IncomingMessage.swift */; };
+		166B21971CEE84BA004BC720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21961CEE84BA004BC720 /* AppDelegate.swift */; };
+		166B21991CEE84BA004BC720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21981CEE84BA004BC720 /* ViewController.swift */; };
+		166B219E1CEE84BA004BC720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166B219D1CEE84BA004BC720 /* Assets.xcassets */; };
+		166B21A11CEE84BA004BC720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166B219F1CEE84BA004BC720 /* LaunchScreen.storyboard */; };
+		166B21AC1CEE84BA004BC720 /* FunChat2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21AB1CEE84BA004BC720 /* FunChat2Tests.swift */; };
+		166B21B71CEE84BA004BC720 /* FunChat2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21B61CEE84BA004BC720 /* FunChat2UITests.swift */; };
+		166B21C51CEE84DC004BC720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166B21C41CEE84DC004BC720 /* Main.storyboard */; };
+		166B21C71CEE84F3004BC720 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21C61CEE84F3004BC720 /* RegisterViewController.swift */; };
+		166B21C91CEE84FA004BC720 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21C81CEE84FA004BC720 /* LoginViewController.swift */; };
+		166B21CB1CEE8502004BC720 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21CA1CEE8502004BC720 /* WelcomeViewController.swift */; };
+		166B21D61CEE86FD004BC720 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 166B21D31CEE86FD004BC720 /* ProgressHUD.bundle */; };
+		166B21D71CEE86FD004BC720 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B21D51CEE86FD004BC720 /* ProgressHUD.m */; };
+		166B21DA1CEE87E6004BC720 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B21D91CEE87E6004BC720 /* SystemConfiguration.framework */; };
+		166B21DC1CEE87FA004BC720 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B21DB1CEE87FA004BC720 /* libsqlite3.tbd */; };
+		166B21DE1CEE8802004BC720 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B21DD1CEE8802004BC720 /* libz.tbd */; };
+		166B21E01CEE8C0E004BC720 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21DF1CEE8C0E004BC720 /* Recent.swift */; };
+		166B21E21CEE8C27004BC720 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21E11CEE8C27004BC720 /* RecentTableViewCell.swift */; };
+		166B21E41CEE974C004BC720 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21E31CEE974C004BC720 /* RecentViewController.swift */; };
+		166B21E61CEEB5F7004BC720 /* ChooseUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21E51CEEB5F7004BC720 /* ChooseUserViewController.swift */; };
+		166B21E81CEF52F6004BC720 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B21E71CEF52F6004BC720 /* ChatViewController.swift */; };
+		16ACA54D1CF66EDB009DE345 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16ACA54C1CF66EDB009DE345 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166B21A81CEE84BA004BC720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166B218B1CEE84BA004BC720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166B21921CEE84BA004BC720;
+			remoteInfo = FunChat2;
+		};
+		166B21B31CEE84BA004BC720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166B218B1CEE84BA004BC720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166B21921CEE84BA004BC720;
+			remoteInfo = FunChat2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16695EB01CF88A1C004AE96F /* OutgoingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingMessage.swift; sourceTree = "<group>"; };
+		16695EB21CF8A143004AE96F /* IncomingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		166B21931CEE84BA004BC720 /* FunChat2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166B21961CEE84BA004BC720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		166B21981CEE84BA004BC720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		166B219D1CEE84BA004BC720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166B21A01CEE84BA004BC720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166B21A21CEE84BA004BC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B21A71CEE84BA004BC720 /* FunChat2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChat2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166B21AB1CEE84BA004BC720 /* FunChat2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChat2Tests.swift; sourceTree = "<group>"; };
+		166B21AD1CEE84BA004BC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B21B21CEE84BA004BC720 /* FunChat2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunChat2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166B21B61CEE84BA004BC720 /* FunChat2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunChat2UITests.swift; sourceTree = "<group>"; };
+		166B21B81CEE84BA004BC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B21C41CEE84DC004BC720 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		166B21C61CEE84F3004BC720 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		166B21C81CEE84FA004BC720 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		166B21CA1CEE8502004BC720 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		166B21D31CEE86FD004BC720 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		166B21D41CEE86FD004BC720 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		166B21D51CEE86FD004BC720 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		166B21D91CEE87E6004BC720 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		166B21DB1CEE87FA004BC720 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		166B21DD1CEE8802004BC720 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		166B21DF1CEE8C0E004BC720 /* Recent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		166B21E11CEE8C27004BC720 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		166B21E31CEE974C004BC720 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		166B21E51CEEB5F7004BC720 /* ChooseUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserViewController.swift; sourceTree = "<group>"; };
+		166B21E71CEF52F6004BC720 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		166B21EA1CEF6867004BC720 /* FunChat2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunChat2-Bridging-Header.h"; sourceTree = "<group>"; };
+		16ACA54C1CF66EDB009DE345 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		403D020CC98D158AEB1C188B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A9D50147DD461E6C24F8F3BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57805E5049B9464EE7FCEEA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166B21901CEE84BA004BC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B21DE1CEE8802004BC720 /* libz.tbd in Frameworks */,
+				166B21DC1CEE87FA004BC720 /* libsqlite3.tbd in Frameworks */,
+				166B21DA1CEE87E6004BC720 /* SystemConfiguration.framework in Frameworks */,
+				110D813B9705D72DEE4BAF45 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21A41CEE84BA004BC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21AF1CEE84BA004BC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16695EAD1CF679C1004AE96F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				166B21C81CEE84FA004BC720 /* LoginViewController.swift */,
+				166B21C61CEE84F3004BC720 /* RegisterViewController.swift */,
+				166B21CA1CEE8502004BC720 /* WelcomeViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		16695EAE1CF679E1004AE96F /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				166B21E31CEE974C004BC720 /* RecentViewController.swift */,
+				166B21E51CEEB5F7004BC720 /* ChooseUserViewController.swift */,
+				166B21E71CEF52F6004BC720 /* ChatViewController.swift */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		16695EAF1CF67A18004AE96F /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				166B21981CEE84BA004BC720 /* ViewController.swift */,
+				166B21E11CEE8C27004BC720 /* RecentTableViewCell.swift */,
+			);
+			name = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		166B218A1CEE84BA004BC720 = {
+			isa = PBXGroup;
+			children = (
+				166B21CC1CEE8698004BC720 /* ProgressHUD */,
+				166B21951CEE84BA004BC720 /* FunChat2 */,
+				166B21AA1CEE84BA004BC720 /* FunChat2Tests */,
+				166B21B51CEE84BA004BC720 /* FunChat2UITests */,
+				166B21941CEE84BA004BC720 /* Products */,
+				E23D9B6BAFFDA80578DC7484 /* Pods */,
+				839549F87E384BF9FFBA6951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		166B21941CEE84BA004BC720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166B21931CEE84BA004BC720 /* FunChat2.app */,
+				166B21A71CEE84BA004BC720 /* FunChat2Tests.xctest */,
+				166B21B21CEE84BA004BC720 /* FunChat2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166B21951CEE84BA004BC720 /* FunChat2 */ = {
+			isa = PBXGroup;
+			children = (
+				166B21961CEE84BA004BC720 /* AppDelegate.swift */,
+				166B21DF1CEE8C0E004BC720 /* Recent.swift */,
+				16695EB01CF88A1C004AE96F /* OutgoingMessage.swift */,
+				16695EB21CF8A143004AE96F /* IncomingMessage.swift */,
+				16695EAE1CF679E1004AE96F /* UIViewControllers */,
+				16695EAD1CF679C1004AE96F /* Login */,
+				16695EAF1CF67A18004AE96F /* CustomTableViewCells */,
+				166B21C41CEE84DC004BC720 /* Main.storyboard */,
+				166B219D1CEE84BA004BC720 /* Assets.xcassets */,
+				166B219F1CEE84BA004BC720 /* LaunchScreen.storyboard */,
+				166B21A21CEE84BA004BC720 /* Info.plist */,
+				166B21EA1CEF6867004BC720 /* FunChat2-Bridging-Header.h */,
+				16ACA54C1CF66EDB009DE345 /* GoogleService-Info.plist */,
+			);
+			path = FunChat2;
+			sourceTree = "<group>";
+		};
+		166B21AA1CEE84BA004BC720 /* FunChat2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				166B21AB1CEE84BA004BC720 /* FunChat2Tests.swift */,
+				166B21AD1CEE84BA004BC720 /* Info.plist */,
+			);
+			path = FunChat2Tests;
+			sourceTree = "<group>";
+		};
+		166B21B51CEE84BA004BC720 /* FunChat2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				166B21B61CEE84BA004BC720 /* FunChat2UITests.swift */,
+				166B21B81CEE84BA004BC720 /* Info.plist */,
+			);
+			path = FunChat2UITests;
+			sourceTree = "<group>";
+		};
+		166B21CC1CEE8698004BC720 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				166B21D31CEE86FD004BC720 /* ProgressHUD.bundle */,
+				166B21D41CEE86FD004BC720 /* ProgressHUD.h */,
+				166B21D51CEE86FD004BC720 /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		839549F87E384BF9FFBA6951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166B21DD1CEE8802004BC720 /* libz.tbd */,
+				166B21DB1CEE87FA004BC720 /* libsqlite3.tbd */,
+				166B21D91CEE87E6004BC720 /* SystemConfiguration.framework */,
+				A9D50147DD461E6C24F8F3BF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23D9B6BAFFDA80578DC7484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57805E5049B9464EE7FCEEA /* Pods.debug.xcconfig */,
+				403D020CC98D158AEB1C188B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166B21921CEE84BA004BC720 /* FunChat2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166B21BB1CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2" */;
+			buildPhases = (
+				559E8EF10EC0D1103A6A4F38 /* Check Pods Manifest.lock */,
+				166B218F1CEE84BA004BC720 /* Sources */,
+				166B21901CEE84BA004BC720 /* Frameworks */,
+				166B21911CEE84BA004BC720 /* Resources */,
+				06C48E8194B213217C281E69 /* Embed Pods Frameworks */,
+				B923EB1BD1D6E59F8988F442 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunChat2;
+			productName = FunChat2;
+			productReference = 166B21931CEE84BA004BC720 /* FunChat2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166B21A61CEE84BA004BC720 /* FunChat2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166B21BE1CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2Tests" */;
+			buildPhases = (
+				166B21A31CEE84BA004BC720 /* Sources */,
+				166B21A41CEE84BA004BC720 /* Frameworks */,
+				166B21A51CEE84BA004BC720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166B21A91CEE84BA004BC720 /* PBXTargetDependency */,
+			);
+			name = FunChat2Tests;
+			productName = FunChat2Tests;
+			productReference = 166B21A71CEE84BA004BC720 /* FunChat2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166B21B11CEE84BA004BC720 /* FunChat2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166B21C11CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2UITests" */;
+			buildPhases = (
+				166B21AE1CEE84BA004BC720 /* Sources */,
+				166B21AF1CEE84BA004BC720 /* Frameworks */,
+				166B21B01CEE84BA004BC720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166B21B41CEE84BA004BC720 /* PBXTargetDependency */,
+			);
+			name = FunChat2UITests;
+			productName = FunChat2UITests;
+			productReference = 166B21B21CEE84BA004BC720 /* FunChat2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166B218B1CEE84BA004BC720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mobiledez;
+				TargetAttributes = {
+					166B21921CEE84BA004BC720 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3U2YZ462W;
+					};
+					166B21A61CEE84BA004BC720 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3U2YZ462W;
+						TestTargetID = 166B21921CEE84BA004BC720;
+					};
+					166B21B11CEE84BA004BC720 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3U2YZ462W;
+						TestTargetID = 166B21921CEE84BA004BC720;
+					};
+				};
+			};
+			buildConfigurationList = 166B218E1CEE84BA004BC720 /* Build configuration list for PBXProject "FunChat2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166B218A1CEE84BA004BC720;
+			productRefGroup = 166B21941CEE84BA004BC720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166B21921CEE84BA004BC720 /* FunChat2 */,
+				166B21A61CEE84BA004BC720 /* FunChat2Tests */,
+				166B21B11CEE84BA004BC720 /* FunChat2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166B21911CEE84BA004BC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B21D61CEE86FD004BC720 /* ProgressHUD.bundle in Resources */,
+				166B21C51CEE84DC004BC720 /* Main.storyboard in Resources */,
+				16ACA54D1CF66EDB009DE345 /* GoogleService-Info.plist in Resources */,
+				166B21A11CEE84BA004BC720 /* LaunchScreen.storyboard in Resources */,
+				166B219E1CEE84BA004BC720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21A51CEE84BA004BC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21B01CEE84BA004BC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C48E8194B213217C281E69 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559E8EF10EC0D1103A6A4F38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B923EB1BD1D6E59F8988F442 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166B218F1CEE84BA004BC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B21E21CEE8C27004BC720 /* RecentTableViewCell.swift in Sources */,
+				166B21D71CEE86FD004BC720 /* ProgressHUD.m in Sources */,
+				166B21E81CEF52F6004BC720 /* ChatViewController.swift in Sources */,
+				166B21E61CEEB5F7004BC720 /* ChooseUserViewController.swift in Sources */,
+				16695EB31CF8A143004AE96F /* IncomingMessage.swift in Sources */,
+				166B21C91CEE84FA004BC720 /* LoginViewController.swift in Sources */,
+				166B21E41CEE974C004BC720 /* RecentViewController.swift in Sources */,
+				166B21CB1CEE8502004BC720 /* WelcomeViewController.swift in Sources */,
+				166B21E01CEE8C0E004BC720 /* Recent.swift in Sources */,
+				166B21C71CEE84F3004BC720 /* RegisterViewController.swift in Sources */,
+				16695EB11CF88A1C004AE96F /* OutgoingMessage.swift in Sources */,
+				166B21991CEE84BA004BC720 /* ViewController.swift in Sources */,
+				166B21971CEE84BA004BC720 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21A31CEE84BA004BC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B21AC1CEE84BA004BC720 /* FunChat2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B21AE1CEE84BA004BC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B21B71CEE84BA004BC720 /* FunChat2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166B21A91CEE84BA004BC720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166B21921CEE84BA004BC720 /* FunChat2 */;
+			targetProxy = 166B21A81CEE84BA004BC720 /* PBXContainerItemProxy */;
+		};
+		166B21B41CEE84BA004BC720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166B21921CEE84BA004BC720 /* FunChat2 */;
+			targetProxy = 166B21B31CEE84BA004BC720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166B219F1CEE84BA004BC720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166B21A01CEE84BA004BC720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166B21B91CEE84BA004BC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166B21BA1CEE84BA004BC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166B21BC1CEE84BA004BC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57805E5049B9464EE7FCEEA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FunChat2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CommLibiOS\"",
+					"-l\"DACircularProgress\"",
+					"-l\"IDMPhotoBrowser\"",
+					"-l\"JSQMessagesViewController\"",
+					"-l\"JSQSystemSoundPlayer\"",
+					"-l\"SDWebImage\"",
+					"-l\"backendless\"",
+					"-l\"c++\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/FunChat2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		166B21BD1CEE84BA004BC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403D020CC98D158AEB1C188B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FunChat2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CommLibiOS\"",
+					"-l\"DACircularProgress\"",
+					"-l\"IDMPhotoBrowser\"",
+					"-l\"JSQMessagesViewController\"",
+					"-l\"JSQSystemSoundPlayer\"",
+					"-l\"SDWebImage\"",
+					"-l\"backendless\"",
+					"-l\"c++\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/FunChat2-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		166B21BF1CEE84BA004BC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunChat2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunChat2.app/FunChat2";
+			};
+			name = Debug;
+		};
+		166B21C01CEE84BA004BC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunChat2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunChat2.app/FunChat2";
+			};
+			name = Release;
+		};
+		166B21C21CEE84BA004BC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunChat2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunChat2;
+			};
+			name = Debug;
+		};
+		166B21C31CEE84BA004BC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunChat2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledez.FunChat2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunChat2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166B218E1CEE84BA004BC720 /* Build configuration list for PBXProject "FunChat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B21B91CEE84BA004BC720 /* Debug */,
+				166B21BA1CEE84BA004BC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166B21BB1CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B21BC1CEE84BA004BC720 /* Debug */,
+				166B21BD1CEE84BA004BC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166B21BE1CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B21BF1CEE84BA004BC720 /* Debug */,
+				166B21C01CEE84BA004BC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166B21C11CEE84BA004BC720 /* Build configuration list for PBXNativeTarget "FunChat2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B21C21CEE84BA004BC720 /* Debug */,
+				166B21C31CEE84BA004BC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166B218B1CEE84BA004BC720 /* Project object */;
+}
